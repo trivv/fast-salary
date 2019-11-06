@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Setup environment 
+1. install docker and setup docker
+2. clone the project 
+3. cd fast-salary
+4. run the docker-composer
+```
+docker-composer build # init the image 
+docker-composer up    # run docker image
+docker-composer up -d # run docker image by deamon
+docker-composer ps    # list the dokcer volume
+```
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+5. after up the docker, go to browser and enter: localhost:4000 
